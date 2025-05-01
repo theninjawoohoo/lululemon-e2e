@@ -23,6 +23,7 @@ Thumbs.db
 # Build output
 /dist
 /build
+/artifacts
 
 # Temporary files
 /tmp
@@ -37,6 +38,7 @@ Thumbs.db
 /screenshots
 /videos
 /output
+/reports
 
 # Lock files
 package-lock.json
