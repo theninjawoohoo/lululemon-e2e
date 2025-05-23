@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "test": "playwright test",
-    "build": "tsc"
+    "build": "tsc",
+    "pw:run": "playwright test --config 'playwright.config.ts' --headed "
   },
   "dependencies": {
+    "msw": "^2.8.2",
     "playwright": "^1.0.0"
   },
   "devDependencies": {

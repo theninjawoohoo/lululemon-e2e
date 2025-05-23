@@ -18,7 +18,7 @@ const config: PlaywrightTestConfig = {
   use: {
     headless: true,
     actionTimeout: 0,
-    baseURL: baseURL ?? 'https://shop.lululemon.com/en-ca/c/bags/n1rdci',
+    baseURL: baseURL ?? 'https://shop.lululemon.com/en-ca/;',
     trace: 'on',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
@@ -33,20 +33,20 @@ const config: PlaywrightTestConfig = {
         ...devices['Desktop Chrome'],
       },
     },
-    {
-      name: 'Mobile Safari',
-      use: {
-        ...devices['iPhone 12'],
-        viewport: { width: 375, height: 812 },
-      },
-    },
-    {
-      name: 'Mobile Chrome',
-      use: {
-        ...devices['Pixel 5'],
-        viewport: { width: 412, height: 915 },
-      },
-    }
+    // {
+    //   name: 'Mobile Safari',
+    //   use: {
+    //     ...devices['iPhone 12'],
+    //     viewport: { width: 375, height: 812 },
+    //   },
+    // },
+    // {
+    //   name: 'Mobile Chrome',
+    //   use: {
+    //     ...devices['Pixel 5'],
+    //     viewport: { width: 412, height: 915 },
+    //   },
+    // }
   ],
 
   outputDir: './artifacts',

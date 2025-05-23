@@ -1,0 +1,12 @@
+{
+  "testCustomer": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "address": "123 Main Street",
+    "city": "Port Coquitlam",
+    "emailAddress": "john.doe@example.com",
+    "province": "BC",
+    "postalCode": "V3C 1S2",
+    "phoneNumber": "123-456-7890"
+  }
+}
